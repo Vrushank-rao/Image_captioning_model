@@ -1,0 +1,420 @@
+25.8s 1 Empty DataFrame
+25.8s 2 Columns: [image_name,  comment_number,  comment]
+25.8s 3 Index: []
+35.0s 4 31783
+137.8s 5 Collecting GPUtil
+138.0s 6 Downloading GPUtil-1.4.0.tar.gz (5.5 kB)
+138.7s 7 Preparing metadata (setup.py) ... [?25l- done
+138.7s 8 [?25hBuilding wheels for collected packages: GPUtil
+139.5s 9 Building wheel for GPUtil (setup.py) ... [?25l- \ done
+139.5s 10 [?25h  Created wheel for GPUtil: filename=GPUtil-1.4.0-py3-none-any.whl size=7409 sha256=d5d505e59cad9b229b497a9a13b01e17b0874526f79b5128687c2d86357b7deb
+139.5s 11 Stored in directory: /root/.cache/pip/wheels/b1/e7/99/2b32600270cf23194c9860f029d3d5db075f250bc39028c045
+139.5s 12 Successfully built GPUtil
+147.1s 13 Installing collected packages: GPUtil
+147.3s 14 Successfully installed GPUtil-1.4.0
+147.3s 15 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m[33m
+148.7s 16 /opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:44: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+301.9s 17 [0mrep =  1   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+456.1s 18 rep =  1   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+609.5s 19 rep =  1   loss =  tensor(1.5358, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+759.9s 20 rep =  1   loss =  tensor(0.0339, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+910.1s 21 rep =  1   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+1060.6s 22 rep =  1   loss =  tensor(0.0346, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+1215.0s 23 rep =  1   loss =  tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+1369.1s 24 rep =  1   loss =  tensor(0.5998, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+1520.5s 25 rep =  1   loss =  tensor(0.4478, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+1672.5s 26 **************************************************
+1822.7s 27 rep =  2   loss =  tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  1.51
+1972.4s 28 rep =  2   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+2125.6s 29 rep =  2   loss =  tensor(1.0938, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+2280.6s 30 rep =  2   loss =  tensor(0.0135, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+2436.5s 31 rep =  2   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.78
+2592.6s 32 rep =  2   loss =  tensor(0.0026, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.78
+2745.4s 33 rep =  2   loss =  tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+2896.0s 34 rep =  2   loss =  tensor(0.3514, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+3049.8s 35 rep =  2   loss =  tensor(0.1779, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+3202.1s 36 **************************************************
+3361.2s 37 rep =  3   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  1.56
+3518.6s 38 rep =  3   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+3673.3s 39 rep =  3   loss =  tensor(0.7174, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.77
+3825.2s 40 rep =  3   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+3977.9s 41 rep =  3   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+4134.6s 42 rep =  3   loss =  tensor(0.0048, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.78
+4292.3s 43 rep =  3   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+4450.6s 44 rep =  3   loss =  tensor(0.1899, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+4603.2s 45 rep =  3   loss =  tensor(0.0274, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+4749.7s 46 **************************************************
+4901.7s 47 rep =  4   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  1.49
+5051.2s 48 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+5199.8s 49 rep =  4   loss =  tensor(0.3923, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+5355.3s 50 rep =  4   loss =  tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.78
+5513.0s 51 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+5670.2s 52 rep =  4   loss =  tensor(0.0029, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+5821.3s 53 rep =  4   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+5970.3s 54 rep =  4   loss =  tensor(0.0354, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+6119.8s 55 rep =  4   loss =  tensor(0.0028, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+6267.0s 56 **************************************************
+6415.4s 57 rep =  5   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  1.48
+6564.9s 58 rep =  5   loss =  tensor(7.6299e-05, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+6712.9s 59 rep =  5   loss =  tensor(0.0636, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+6860.7s 60 rep =  5   loss =  tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7009.4s 61 rep =  5   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7157.4s 62 rep =  5   loss =  tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7305.5s 63 rep =  5   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7453.6s 64 rep =  5   loss =  tensor(0.0125, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7601.3s 65 rep =  5   loss =  tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+7747.7s 66 **************************************************
+7747.7s 67 -----------------------------------------------------------------------------------------
+7747.7s 68 | end of epoch   1 | time: 7598.83s | Training loss 51.03 |
+7747.7s 69 model saved
+7748.7s 70 rep =  1   loss =  tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.0
+7896.2s 71 rep =  1   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8042.6s 72 rep =  1   loss =  tensor(0.9247, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+8189.6s 73 rep =  1   loss =  tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8338.0s 74 rep =  1   loss =  tensor(0.6538, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8485.7s 75 rep =  1   loss =  tensor(0.0007, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8632.8s 76 rep =  1   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8780.2s 77 rep =  1   loss =  tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+8927.5s 78 rep =  1   loss =  tensor(0.1677, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+9073.6s 79 rep =  1   loss =  tensor(1.0901, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+9218.8s 80 **************************************************
+9219.5s 81 rep =  2   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+9370.0s 82 rep =  2   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+9521.7s 83 rep =  2   loss =  tensor(0.7350, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+9671.8s 84 rep =  2   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+9823.9s 85 rep =  2   loss =  tensor(0.4323, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+9974.9s 86 rep =  2   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+10126.3s 87 rep =  2   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+10276.5s 88 rep =  2   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+10426.5s 89 rep =  2   loss =  tensor(0.0376, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+10578.1s 90 rep =  2   loss =  tensor(0.7548, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+10727.6s 91 **************************************************
+10728.4s 92 rep =  3   loss =  tensor(0.0008, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+10879.5s 93 rep =  3   loss =  tensor(0.0007, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+11030.4s 94 rep =  3   loss =  tensor(0.4253, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+11181.7s 95 rep =  3   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+11332.9s 96 rep =  3   loss =  tensor(0.2145, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+11483.8s 97 rep =  3   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+11635.0s 98 rep =  3   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+11785.8s 99 rep =  3   loss =  tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+11937.0s 100 rep =  3   loss =  tensor(0.0034, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+12088.4s 101 rep =  3   loss =  tensor(0.4528, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+12238.2s 102 **************************************************
+12238.9s 103 rep =  4   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+12391.2s 104 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+12543.5s 105 rep =  4   loss =  tensor(0.1909, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+12695.7s 106 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+12846.4s 107 rep =  4   loss =  tensor(0.0575, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+12997.3s 108 rep =  4   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+13148.6s 109 rep =  4   loss =  tensor(0.0002, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+13299.6s 110 rep =  4   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+13450.4s 111 rep =  4   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+13601.6s 112 rep =  4   loss =  tensor(0.1793, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+13749.7s 113 **************************************************
+13750.4s 114 rep =  5   loss =  tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+13899.6s 115 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+14049.1s 116 rep =  5   loss =  tensor(0.0469, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+14198.8s 117 rep =  5   loss =  tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+14347.7s 118 rep =  5   loss =  tensor(0.0040, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+14496.9s 119 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+14645.9s 120 rep =  5   loss =  tensor(0.0002, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+14794.7s 121 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+14943.1s 122 rep =  5   loss =  tensor(0.0028, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+15091.9s 123 rep =  5   loss =  tensor(0.0330, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+15238.8s 124 **************************************************
+15238.8s 125 -----------------------------------------------------------------------------------------
+15238.8s 126 | end of epoch   2 | time: 7490.90s | Training loss 41.35 |
+15238.8s 127 model saved
+15240.3s 128 rep =  1   loss =  tensor(0.0111, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.01
+15389.7s 129 rep =  1   loss =  tensor(0.0120, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+15539.1s 130 rep =  1   loss =  tensor(0.0028, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+15688.1s 131 rep =  1   loss =  tensor(0.0002, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+15837.5s 132 rep =  1   loss =  tensor(0.5515, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+15987.0s 133 rep =  1   loss =  tensor(0.0820, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+16136.0s 134 rep =  1   loss =  tensor(0.2419, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+16285.2s 135 rep =  1   loss =  tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+16434.0s 136 rep =  1   loss =  tensor(0.4814, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+16583.8s 137 rep =  1   loss =  tensor(0.1499, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+16729.4s 138 **************************************************
+16730.8s 139 rep =  2   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+16879.8s 140 rep =  2   loss =  tensor(0.0007, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+17028.4s 141 rep =  2   loss =  tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+17177.0s 142 rep =  2   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+17325.6s 143 rep =  2   loss =  tensor(0.3122, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+17474.8s 144 rep =  2   loss =  tensor(0.0084, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+17623.5s 145 rep =  2   loss =  tensor(0.0885, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+17772.8s 146 rep =  2   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+17922.3s 147 rep =  2   loss =  tensor(0.2224, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+18071.8s 148 rep =  2   loss =  tensor(0.0051, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+18218.2s 149 **************************************************
+18219.7s 150 rep =  3   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+18368.8s 151 rep =  3   loss =  tensor(0.0011, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+18518.4s 152 rep =  3   loss =  tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+18667.6s 153 rep =  3   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+18816.5s 154 rep =  3   loss =  tensor(0.1226, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+18964.8s 155 rep =  3   loss =  tensor(0.0007, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+19113.6s 156 rep =  3   loss =  tensor(0.0132, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+19262.5s 157 rep =  3   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+19412.1s 158 rep =  3   loss =  tensor(0.0885, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+19561.4s 159 rep =  3   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+19708.6s 160 **************************************************
+19710.0s 161 rep =  4   loss =  tensor(0.0029, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+19860.5s 162 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20010.9s 163 rep =  4   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20161.2s 164 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20310.8s 165 rep =  4   loss =  tensor(0.0058, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20460.4s 166 rep =  4   loss =  tensor(0.0008, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20610.1s 167 rep =  4   loss =  tensor(0.0036, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20761.0s 168 rep =  4   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+20910.2s 169 rep =  4   loss =  tensor(0.0071, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+21059.4s 170 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+21206.0s 171 **************************************************
+21207.5s 172 rep =  5   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+21357.0s 173 rep =  5   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+21504.4s 174 rep =  5   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+21652.8s 175 rep =  5   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+21801.5s 176 rep =  5   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+21949.8s 177 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22097.4s 178 rep =  5   loss =  tensor(0.0028, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22245.6s 179 rep =  5   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22393.4s 180 rep =  5   loss =  tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22541.1s 181 rep =  5   loss =  tensor(0.0011, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22686.9s 182 **************************************************
+22686.9s 183 -----------------------------------------------------------------------------------------
+22686.9s 184 | end of epoch   3 | time: 7448.01s | Training loss 34.01 |
+22686.9s 185 model saved
+22689.2s 186 rep =  1   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.01
+22837.8s 187 rep =  1   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+22985.8s 188 rep =  1   loss =  tensor(0.2920, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+23132.4s 189 rep =  1   loss =  tensor(0.1991, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+23277.6s 190 rep =  1   loss =  tensor(0.0043, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+23435.2s 191 rep =  1   loss =  tensor(0.0123, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.79
+23582.8s 192 rep =  1   loss =  tensor(0.6150, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+23731.2s 193 rep =  1   loss =  tensor(0.4578, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+23883.3s 194 rep =  1   loss =  tensor(0.8257, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+24035.9s 195 rep =  1   loss =  tensor(0.5093, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+24180.3s 196 **************************************************
+24182.5s 197 rep =  2   loss =  tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+24331.2s 198 rep =  2   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+24479.6s 199 rep =  2   loss =  tensor(0.0475, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+24629.7s 200 rep =  2   loss =  tensor(0.0328, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+24777.6s 201 rep =  2   loss =  tensor(0.0094, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+24926.1s 202 rep =  2   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+25075.7s 203 rep =  2   loss =  tensor(0.4273, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+25225.5s 204 rep =  2   loss =  tensor(0.2819, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+25374.9s 205 rep =  2   loss =  tensor(0.4699, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+25523.2s 206 rep =  2   loss =  tensor(0.2316, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+25668.5s 207 **************************************************
+25670.8s 208 rep =  3   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+25819.8s 209 rep =  3   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+25968.2s 210 rep =  3   loss =  tensor(0.0075, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+26116.0s 211 rep =  3   loss =  tensor(0.0043, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+26265.2s 212 rep =  3   loss =  tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+26414.1s 213 rep =  3   loss =  tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+26563.0s 214 rep =  3   loss =  tensor(0.1693, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+26712.1s 215 rep =  3   loss =  tensor(0.1221, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+26861.2s 216 rep =  3   loss =  tensor(0.2274, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27010.2s 217 rep =  3   loss =  tensor(0.0348, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27155.7s 218 **************************************************
+27158.1s 219 rep =  4   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+27307.1s 220 rep =  4   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27456.9s 221 rep =  4   loss =  tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27606.3s 222 rep =  4   loss =  tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27756.1s 223 rep =  4   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+27905.4s 224 rep =  4   loss =  tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+28054.6s 225 rep =  4   loss =  tensor(0.0062, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+28204.0s 226 rep =  4   loss =  tensor(0.0182, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+28352.9s 227 rep =  4   loss =  tensor(0.0375, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+28501.9s 228 rep =  4   loss =  tensor(0.0062, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+28647.4s 229 **************************************************
+28649.5s 230 rep =  5   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+28799.4s 231 rep =  5   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+28948.5s 232 rep =  5   loss =  tensor(0.0027, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+29097.2s 233 rep =  5   loss =  tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+29246.2s 234 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+29395.0s 235 rep =  5   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+29544.3s 236 rep =  5   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+29693.1s 237 rep =  5   loss =  tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+29842.1s 238 rep =  5   loss =  tensor(0.0055, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+29990.8s 239 rep =  5   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+30135.8s 240 **************************************************
+30135.8s 241 -----------------------------------------------------------------------------------------
+30135.8s 242 | end of epoch   4 | time: 7448.75s | Training loss 33.64 |
+30135.8s 243 model saved
+30138.8s 244 rep =  1   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.02
+30287.5s 245 rep =  1   loss =  tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+30436.6s 246 rep =  1   loss =  tensor(0.3918, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+30585.0s 247 rep =  1   loss =  tensor(0.0153, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+30733.4s 248 rep =  1   loss =  tensor(0.0036, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+30881.3s 249 rep =  1   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+31028.9s 250 rep =  1   loss =  tensor(0.9913, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+31176.8s 251 rep =  1   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+31325.0s 252 rep =  1   loss =  tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+31472.8s 253 rep =  1   loss =  tensor(0.6278, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+31619.6s 254 **************************************************
+31622.9s 255 rep =  2   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+31773.9s 256 rep =  2   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+31921.7s 257 rep =  2   loss =  tensor(0.1632, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+32069.6s 258 rep =  2   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+32218.1s 259 rep =  2   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+32364.8s 260 rep =  2   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+32517.1s 261 rep =  2   loss =  tensor(0.6923, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+32678.6s 262 rep =  2   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.81
+32830.5s 263 rep =  2   loss =  tensor(0.0006, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+32981.6s 264 rep =  2   loss =  tensor(0.4097, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+33128.8s 265 **************************************************
+33131.7s 266 rep =  3   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+33282.6s 267 rep =  3   loss =  tensor(0.0009, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+33433.5s 268 rep =  3   loss =  tensor(0.0142, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+33583.3s 269 rep =  3   loss =  tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+33733.6s 270 rep =  3   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+33883.6s 271 rep =  3   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+34033.7s 272 rep =  3   loss =  tensor(0.3387, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+34183.7s 273 rep =  3   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+34335.4s 274 rep =  3   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+34481.3s 275 rep =  3   loss =  tensor(0.2142, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.73
+34619.4s 276 **************************************************
+34622.1s 277 rep =  4   loss =  tensor(0.0001, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.7
+34764.8s 278 rep =  4   loss =  tensor(0.0002, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+34907.2s 279 rep =  4   loss =  tensor(0.0029, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35049.2s 280 rep =  4   loss =  tensor(0.0011, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35191.8s 281 rep =  4   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35334.6s 282 rep =  4   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35477.3s 283 rep =  4   loss =  tensor(0.1471, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35619.6s 284 rep =  4   loss =  tensor(0.0002, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+35762.9s 285 rep =  4   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.72
+35905.6s 286 rep =  4   loss =  tensor(0.0613, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+36044.3s 287 **************************************************
+36047.0s 288 rep =  5   loss =  tensor(7.4176e-05, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+36190.0s 289 rep =  5   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.71
+36333.1s 290 rep =  5   loss =  tensor(0.0010, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.72
+36481.4s 291 rep =  5   loss =  tensor(0.0007, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+36634.5s 292 rep =  5   loss =  tensor(0.0005, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.76
+36784.3s 293 rep =  5   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+36933.9s 294 rep =  5   loss =  tensor(0.0172, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+37082.0s 295 rep =  5   loss =  tensor(0.0004, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.74
+37231.0s 296 rep =  5   loss =  tensor(0.0003, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+37381.4s 297 rep =  5   loss =  tensor(0.0049, device='cuda:0', grad_fn=<NllLossBackward0>)     time elapesed  0.75
+37531.1s 298 **************************************************
+37531.1s 299 -----------------------------------------------------------------------------------------
+37531.1s 300 | end of epoch   5 | time: 7395.44s | Training loss 21.87 |
+37531.1s 301 model saved
+37533.3s 302 Individual 1-gram: 0.000000
+37533.3s 303 Individual 2-gram: 0.000000
+37533.3s 304 Individual 3-gram: 0.000000
+37533.3s 305 Individual 4-gram: 0.000000
+37533.3s 306 Orginal -> Two young , White males are outside near many bushes .
+37533.3s 307 Bleu Score is 0
+37533.3s 308 0  Two young guys with shaggy hair look at their hands while hanging out in the yard .
+37533.3s 309 1  Two young , White males are outside near many bushes .
+37533.3s 310 2  Two men in green shirts are standing in a yard .
+37533.3s 311 3  A man in a blue shirt standing in a garden .
+37533.3s 312 4  Two friends enjoy time spent together .
+37533.3s 313 Sentence Formed two young white males are outside near many bushes
+37534.1s 314 /opt/conda/lib/python3.7/site-packages/nltk/translate/bleu_score.py:490: UserWarning:
+37534.1s 315 Corpus/Sentence contains 0 counts of 2-gram overlaps.
+37534.1s 316 BLEU scores might be undesirable; use SmoothingFunction().
+37534.1s 317 warnings.warn(_msg)
+37534.1s 318 Individual 1-gram: 0.083333
+37534.1s 319 Individual 2-gram: 1.000000
+37534.1s 320 Individual 3-gram: 1.000000
+37534.1s 321 Individual 4-gram: 1.000000
+37534.1s 322 Orginal -> A little girl in a pink dress going into a wooden cabin .
+37534.1s 323 Bleu Score is 0.537284965911771
+37534.1s 324 0  A child in a pink dress is climbing up a set of stairs in an entry way .
+37534.1s 325 1  A little girl in a pink dress going into a wooden cabin .
+37534.1s 326 2  A little girl climbing the stairs to her playhouse .
+37534.1s 327 3  A little girl climbing into a wooden playhouse
+37534.1s 328 4  A girl going into a wooden building .
+37534.1s 329 Sentence Formed a little girl in a pink dress going into a wooden cabin
+37534.6s 330 Individual 1-gram: 0.066667
+37534.6s 331 Individual 2-gram: 1.000000
+37534.6s 332 Individual 3-gram: 1.000000
+37534.6s 333 Individual 4-gram: 1.000000
+37534.6s 334 Orginal -> A man crawls through a playground plastic tube towards a little girl with red-hair .
+37534.6s 335 Bleu Score is 0.5081327481546147
+37534.6s 336 0  A man crawls through a playground plastic tube towards a little girl with red-hair .
+37534.6s 337 1  A mother with a blue shirt , chases after her child , who is inside a red slide .
+37534.6s 338 2  A man with an earring interacts with a child on a playground .
+37534.6s 339 3  Person smiles at child inside of playground structure .
+37534.6s 340 4  Person watching a child as they play .
+37534.6s 341 Sentence Formed a man crawls through a playground plastic tube towards a little girl with red hair
+37535.2s 342 Individual 1-gram: 0.133333
+37535.2s 343 Individual 2-gram: 1.000000
+37535.2s 344 Individual 3-gram: 1.000000
+37535.2s 345 Individual 4-gram: 1.000000
+37535.2s 346 Orginal -> A little girl in a white dress and headband is running through a forest while her dress is billowing out around her .
+37535.2s 347 Bleu Score is 0.6042750794713536
+37535.2s 348 0  A little girl in a white dress and headband is running through a forest while her dress is billowing out around her .
+37535.2s 349 1  A young girl wearing a white dress runs on the green grass near a forest .
+37535.2s 350 2  A girl happily twirls in circles , her dress fanning out around her .
+37535.2s 351 3  A young girl enjoys a dance in the woods on a crisp fall day .
+37535.2s 352 4  A young girl in a beige dress running near a wooded area .
+37535.2s 353 Sentence Formed a young girl wearing a white dress runs on the green grass near a forest
+37535.8s 354 Individual 1-gram: 0.000000
+37535.8s 355 Individual 2-gram: 0.000000
+37535.8s 356 Individual 3-gram: 0.000000
+37535.8s 357 Individual 4-gram: 0.000000
+37535.8s 358 Orginal -> Two men are at the stove preparing food .
+37535.8s 359 Bleu Score is 0
+37535.8s 360 0  Two men , one in a gray shirt , one in a black shirt , standing near a stove .
+37535.8s 361 1  Two guy cooking and joking around with the camera .
+37535.8s 362 2  Two men in a kitchen cooking food on a stove .
+37535.8s 363 3  Two men are at the stove preparing food .
+37535.8s 364 4  Two men are cooking a meal .
+37535.8s 365 Sentence Formed two men are at the stove preparing food
+37536.4s 366 Individual 1-gram: 0.058824
+37536.4s 367 Individual 2-gram: 1.000000
+37536.4s 368 Individual 3-gram: 1.000000
+37536.4s 369 Individual 4-gram: 1.000000
+37536.4s 370 Orginal -> Young blond man in a blue and yellow jacket smiling while standing in front of a net .
+37536.4s 371 Bleu Score is 0.4924790605054523
+37536.4s 372 0  Young blond man in a blue and yellow jacket smiling while standing in front of a net .
+37536.4s 373 1  A young man in a black and yellow jacket is gazing at something and smiling .
+37536.4s 374 2  A young man holding a pole vault looks determined .
+37536.4s 375 3  A man is holding a pole and smiling .
+37536.4s 376 4  A smiling man looking at the sky .
+37536.4s 377 Sentence Formed young blond man in a blue and yellow jacket smiling while standing in front of a net
+37536.9s 378 Individual 1-gram: 0.157895
+37536.9s 379 Individual 2-gram: 1.000000
+37536.9s 380 Individual 3-gram: 1.000000
+37536.9s 381 Individual 4-gram: 1.000000
+37536.9s 382 Orginal -> A man in a white t-shirt looks toward the camera surrounded by a crowd near a metro station .
+37536.9s 383 Bleu Score is 0.6303647413359293
+37536.9s 384 0  A man in a white t-shirt looks toward the camera surrounded by a crowd near a metro station .
+37536.9s 385 1  A large crowd of people stand outside in front of the entrance to a Metro station .
+37536.9s 386 2  A group of people are walking through a city street .
+37536.9s 387 3  A crowd is portrayed near a metro station .
+37536.9s 388 4  Crowd standing outside a metro area .
+37536.9s 389 Sentence Formed a man in a white t shirt looks toward the camera surrounded by a crowd near a metro station
+37537.6s 390 Individual 1-gram: 0.066667
+37537.6s 391 Individual 2-gram: 1.000000
+37537.6s 392 Individual 3-gram: 1.000000
+37537.6s 393 Individual 4-gram: 1.000000
+37537.6s 394 Orginal -> An old man with a white shirt and black pants sits on a chair in the opening of a stone tunnel .
+37537.6s 395 Bleu Score is 0.5081327481546147
+37537.6s 396 0  An old man with a white shirt and black pants sits on a chair in the opening of a stone tunnel .
+37537.6s 397 1  A man in a white shirt and dress pants sits just underneath a stone archway .
+37537.6s 398 2  a man wearing a white shirt and black pants sitting on a staircase
+37537.6s 399 3  An old man sits in an ancient brick archway .
+37537.6s 400 4  Elderly man sitting in a doorway .
+37537.6s 401 Sentence Formed a man in a white shirt and dress pants sits just underneath a stone claus
+37554.8s 402 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+37554.8s 403 FutureWarning,
+37554.8s 404 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+37555.4s 405 [NbConvertApp] Writing 3172305 bytes to __notebook__.ipynb
+37568.3s 406 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+37568.3s 407 FutureWarning,
+37568.3s 408 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+37569.7s 409 /opt/conda/lib/python3.7/site-packages/bleach/sanitizer.py:168: NoCssSanitizerWarning: 'style' attribute specified, but css_sanitizer not set.
+37569.7s 410 category=NoCssSanitizerWarning,
+37569.7s 411 [NbConvertApp] Support files will be in __results___files/
+37569.7s 412 [NbConvertApp] Making directory __results___files
+37569.7s 413 [NbConvertApp] Making directory __results___files
+37569.7s 414 [NbConvertApp] Making directory __results___files
+37569.7s 415 [NbConvertApp] Making directory __results___files
+37569.7s 416 [NbConvertApp] Making directory __results___files
+37569.7s 417 [NbConvertApp] Making directory __results___files
+37569.7s 418 [NbConvertApp] Making directory __results___files
+37569.7s 419 [NbConvertApp] Making directory __results___files
+37569.7s 420 [NbConvertApp] Writing 424621 bytes to __results__.html
