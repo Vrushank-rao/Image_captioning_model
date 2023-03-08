@@ -2,8 +2,8 @@
 The captioning is done using Transformer and for diversifying the caption Transgans concept is used. 
 The discriminator is a classic Deocder of the Transformer, and the generator is the Vit-encoder combined with decoder of the Transformer to generate the caption.
 # Training process and Evaluation
-1. The model is Trained on Flicker30K dataset , the model is trained on first 20k image and tested on the last 10k images. 
-The Training was done in 2gpus available on Kaggle.
+
+1.The model is Trained on Flicker30K dataset , the model is trained on first 20k image and tested on the last 10k images. The Training was done in 2gpus available on Kaggle.
   1. The Training is also split into 10k images and then use that to train the next 10k images , this is because there is a time limit on the notebook run time.
   2. Save the model at the end of the each epoch and then use the best model for training in the next 10k images
 
