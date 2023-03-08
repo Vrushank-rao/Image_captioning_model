@@ -32,7 +32,7 @@ The model performed well even without getting fintuned to flicker8k dataset afte
 
 3.'logs' contains the output of the being trained on flicker30k image dataset, there are two files because they are tarined on batches of 10k images each
 
-4.'image-captio-custom' is the model architecture defined and also its trained on flicker30k
+4.'image-caption-custom' is the model architecture defined and also its trained on flicker30k
 
 5.'inference' it's to see visualize the model's performance on flicker30k images dataset after being tarined on just *10k images* in that dataset
 
