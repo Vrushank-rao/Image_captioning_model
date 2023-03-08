@@ -16,3 +16,10 @@ The discriminator is a classic Deocder of the Transformer, and the generator is 
 
 # Important observation
 The model performed well even without getting fintuned to flicker8k dataset after being trained to flicker30k. The difference between being finetuned and not being finetuned is almost 0.001 difference in both Bleu score and Meteor score
+
+# About Files
+1. "Captions_for_evaluations" file contains the dictionary where the key is the model's caption and the value is the ground truth
+  1.'direct_flicker_8k_sentence' contains the captions where the model is not fine-tuned on flicker8k .
+  2. 'flicker_8k_sentence' contains the captions where the model is fine-tuned on flicker8k .
+  3. 'sentence' contains the caption after being trained in flicker30k dataset.
+2. 'evaluation' contains the ipyb files of the models being 
