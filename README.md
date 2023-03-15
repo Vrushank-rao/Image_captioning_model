@@ -12,7 +12,8 @@ Now the image embeddings from the Vit-encoder is passed to Transformer Decoder a
 # Custom Architecture 
 ![architecture](https://user-images.githubusercontent.com/105441109/225309814-eff98f2e-01e4-4974-8e1e-0386c99b112b.jpg)
 
-
+The Discriminator is classic Transformer-decoder of 2 layers.
+ 
 # Training process and Evaluation
 
 1.The model is Trained on Flicker30K dataset , the model is trained on first 20k image and tested on the last 10k images. The Training was done in 2gpus available on Kaggle.
