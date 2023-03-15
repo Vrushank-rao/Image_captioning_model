@@ -1,8 +1,10 @@
 # Image_captioning_model
 The captioning is done using Transformer and for diversifying the caption Transgans concept is used. 
 The discriminator is a classic Deocder of the Transformer, and the generator is the combination of both Vit-encoder and decoder of the Transformer to generate the caption.
+
 ### Motivation
-The main moto was to automate a process of generating a meaningful story behind an image. For many years this has been persued but the process was never perfected , my attempt isn't either, it's just a bigger step towards perfection.
+The main moto was to automate a process of generating a meaningful story behind an image. For many years this has been persued but the process was never perfected. Generating captions for images is a vital task relevant to the area of both Computer Vision and Natural Language Processing.
+
 ## Thought process
 Since the VIT architecture has proven that Transformer-Encoder can learn and extract features by making image embeddings, and as we all know that the NLP is conquered by Transformers what better option to use a Transformer-Decoder as the decoder in our architecture.
 Now the image embeddings from the Vit-encoder is passed to Transformer Decoder and the caption is generated at the transformer-decoder.
