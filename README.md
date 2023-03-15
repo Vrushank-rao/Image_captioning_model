@@ -4,7 +4,7 @@ The discriminator is a classic Deocder of the Transformer, and the generator is 
 ### Motivation
 The main moto was to automate a process of generating a meaningful story behind an image. For many years this has been persued but the process was never perfected , my attempt isn't either, it's just a bigger step towards perfection.
 ## Thought process
-Since the VIT architecture has proven that Transformer-Encoder can learn and extract features by making image embeddings, and as we all know that the NLP is concurred by Transformers what better option to use a Transformer-Decoder as the decoder in our architecture.
+Since the VIT architecture has proven that Transformer-Encoder can learn and extract features by making image embeddings, and as we all know that the NLP is conquered by Transformers what better option to use a Transformer-Decoder as the decoder in our architecture.
 Now the image embeddings from the Vit-encoder is passed to Transformer Decoder and the caption is generated at the transformer-decoder.
 
 # Training process and Evaluation
