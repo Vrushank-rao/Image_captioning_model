@@ -7,6 +7,10 @@ The main moto was to automate a process of generating a meaningful story behind 
 Since the VIT architecture has proven that Transformer-Encoder can learn and extract features by making image embeddings, and as we all know that the NLP is conquered by Transformers what better option to use a Transformer-Decoder as the decoder in our architecture.
 Now the image embeddings from the Vit-encoder is passed to Transformer Decoder and the caption is generated at the transformer-decoder.
 
+# Custom Architecture 
+![architecture](https://user-images.githubusercontent.com/105441109/225309814-eff98f2e-01e4-4974-8e1e-0386c99b112b.jpg)
+
+
 # Training process and Evaluation
 
 1.The model is Trained on Flicker30K dataset , the model is trained on first 20k image and tested on the last 10k images. The Training was done in 2gpus available on Kaggle.
@@ -44,3 +48,4 @@ The model performed well even without getting fintuned to flicker8k dataset afte
 6.'inference_20k' it's to see visualize the model's performance on flicker30k images dataset after being trained on *20k images* in that dataset
 
 7.'inference-flicker8-k' it's to see visualize the model's performance on flicker8k images dataset after being *finetuned* on train dataset of flicker8k dataset
+# Few Results
