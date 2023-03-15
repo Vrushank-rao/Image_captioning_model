@@ -49,3 +49,10 @@ The model performed well even without getting fintuned to flicker8k dataset afte
 
 7.'inference-flicker8-k' it's to see visualize the model's performance on flicker8k images dataset after being *finetuned* on train dataset of flicker8k dataset
 # Few Results
+![Screenshot from 2023-03-15 18-09-20](https://user-images.githubusercontent.com/105441109/225311949-a072c536-940f-46c8-b956-dc013b656095.png)
+![Screenshot from 2023-03-15 18-09-49](https://user-images.githubusercontent.com/105441109/225311993-2c77a255-7c44-4649-96d2-5238b05567aa.png)
+
+
+
+
+
