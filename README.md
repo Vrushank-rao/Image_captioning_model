@@ -9,10 +9,11 @@ The main moto was to automate a process of generating a meaningful story behind 
 Since the VIT architecture has proven that Transformer-Encoder can learn and extract features by making image embeddings, and as we all know that the NLP is conquered by Transformers what better option to use a Transformer-Decoder as the decoder in our architecture.
 Now the image embeddings from the Vit-encoder is passed to Transformer Decoder and the caption is generated at the transformer-decoder.
 
-# Custom Architecture 
-![architecture](https://user-images.githubusercontent.com/105441109/225309814-eff98f2e-01e4-4974-8e1e-0386c99b112b.jpg)
 
-The Discriminator is classic Transformer-decoder of 2 layers.
+# Custom Architecture 
+![architecture](https://user-images.githubusercontent.com/105441109/226985653-56f91948-fdc9-46df-a625-cb19e13afc27.jpg)
+
+
  
 # Training process and Evaluation
 
